@@ -31,7 +31,7 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color: white;
 
 }
 
@@ -144,11 +144,12 @@
 
 @media (max-width:1045px) {
     .main .profile-cart {
-        width: calc(50% - 10px);
+        width: 100%;
         margin-bottom: 20px;
+        height: 100%;
     }
     .main .button {
-        width: calc(50% - 10px);
+       width: 100%;
         margin-bottom: 20px;
     }
 }
